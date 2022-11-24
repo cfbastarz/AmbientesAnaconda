@@ -13,3 +13,12 @@ Onde ``AMBIENTE`` refere-se ao nome do ambiente a ser criado.
 Caso seja necessário adicionar o canal `conda-forge`, utilize o comando a seguir:
 
     conda config --add channels conda-forge
+
+Caso ocorre algum problema com a resolução das dependências, edite o arquivo `~/.condarc` e insira o seguinte conteúdo:
+
+    channel_priority: flexible
+    channels:
+      - defaults
+      - conda-forge
+    auto_activate_base: true
+
