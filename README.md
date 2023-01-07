@@ -6,9 +6,9 @@ Neste repositório estão armazenados as listas de pacotes dos ambientes que uti
 
 Na máquina onde o ambiente será criado, executar o seguinte comando (com o Anaconda devidamente instalado):
 
-    conda create --name AMBIENTE --file AMBIENTE.txt
+    conda env create --name AMBIENTE --file AMBIENTE.yml
 
-Onde ``AMBIENTE`` refere-se ao nome do ambiente a ser criado.
+Onde `AMBIENTE` refere-se ao nome do ambiente a ser criado.
 
 Caso seja necessário adicionar o canal `conda-forge`, utilize o comando a seguir:
 
