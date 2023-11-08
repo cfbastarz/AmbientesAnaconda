@@ -26,4 +26,6 @@ channels:
 auto_activate_base: true
 ```
 
+**Note:** You can also try running these instructions within the WSL Linux (Microsoft's Windows Subsystem for Linux).
+
 carlos.bastarz@inpe.br (07/11/2023)
